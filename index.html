@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eFootball Arena</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<video autoplay loop muted id="video-background">
+    <source src="C:\Users\Acer\Downloads\eFootball™ Series 30th Anniversary Trailer 2160p.mp4" type="video/mp4">
+</video>
+
+
+    <nav class="navbar">
+        <span class="logo">⚽ eFootball Arena</span>
+
+        <ul class="nav-links">
+            <li><a href="#about">Game</a></li>
+            <li><a href="#skills">Modes</a></li>
+            <li><a href="#projects">Players</a></li>
+            <li><a href="#contact">Tournament</a></li>
+        </ul>
+
+        <button class="menu-toggle" id="menu-button" aria-expanded="false">☰</button>
+    </nav>
+
+    <div class="hero-content">
+        <h1>Welcome to eFootball Arena</h1>
+        <p>Play • Compete • Dominate</p>
+    </div>
+</header>
+
+<!-- ABOUT GAME -->
+<section id="about">
+    <h2>About eFootball</h2>
+    <p>eFootball is Konami’s legendary football simulation game where players compete online using real-world clubs and legendary players.</p>
+</section>
+
+<!-- GAME MODES -->
+<section id="skills">
+    <h2>Game Modes</h2>
+    <div class="skills-row">
+        <span>⚽ Online Match</span>
+        <span>🏆 Tournaments</span>
+        <span>🎮 MyClub</span>
+        <span>🤝 Co-op Mode</span>
+    </div>
+</section>
+
+<!-- TOP PLAYERS -->
+<section id="projects">
+    <h2>Top eFootball Players</h2>
+
+    <div id="projects-grid">
+
+        <div class="project-card">
+            <img src="C:\Users\Acer\Downloads\messi.jpg">
+            <h3>Messi Build</h3>
+        </div>
+
+        <div class="project-card">
+            <img src="C:\Users\Acer\Downloads\ronado.png">
+            <h3>Ronaldo Build</h3>
+        </div>
+
+        <div class="project-card">
+            <img src="C:\Users\Acer\Downloads\neymar.webp">
+            <h3>Neymar Dribbler</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- TOURNAMENT REGISTRATION -->
+<section id="contact">
+    <h2>Join the Tournament</h2>
+
+    <form id="contact-form-id">
+        <input type="text" id="name" placeholder="Player Name">
+        <input type="email" id="email" placeholder="Email ID">
+        <button type="submit">Register</button>
+    </form>
+
+    <div id="form-message"></div>
+</section>
+
+<footer>
+    <p>© 2025 eFootball Arena | Powered by Rakesh</p>
+
+    <p style="margin-top:10px;">
+        Need Help? Visit Official eFootball Support:
+        <a href="https://www.konami.com/efootball/en/" target="_blank" style="color:#00ff9c;">
+            https://www.konami.com/efootball
+        </a>
+    </p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
